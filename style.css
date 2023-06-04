@@ -1,0 +1,151 @@
+.header h1{
+    
+    font-family: "Monomaniac One", sans-serif;
+    color: rgb(236, 130, 0);
+    text-align: center;
+    background-color: black;
+    border-bottom: 5px solid rgb(177, 165, 165);
+    border-top: 5px solid rgb(177, 165, 165);
+    padding-bottom: 20px;
+}
+
+.header h1 span{
+    color: rgb(51, 188, 188);
+}
+
+body{
+    background-image: url(BackAll.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .Login {
+    font-family: "Monomaniac One";
+    font-size: 150%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    color: white;
+    max-width: 400px; /* Menentukan lebar maksimum elemen Login */
+    width: 100%; /* Menyesuaikan lebar dengan konten */
+    padding: 100px;
+    height: 300px;
+}
+
+.input-text{
+    font-size: 30px;
+}
+.submitbutton{
+    font-family: "Monomaniac One", sans-serif;
+    font-size: 20px;
+}
+
+.footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border: 5px;
+    width: 100%;
+    height: 5%;
+    background-color: rgb(4, 4, 4);
+    border-top: 5px solid rgb(177, 165, 165);
+
+ }
+
+/*---- dashboard---- */
+h1{
+    font-size: 36px;
+    color: aliceblue;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+}
+.foto1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: auto;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    color: white;
+    max-width: 400px; /* Menentukan lebar maksimum elemen Login */
+    width: 100%; /* Menyesuaikan lebar dengan konten */
+    padding: 100px;
+    height: 395px; /* Menentukan tinggi elemen Login */
+}
+
+.foto1 img {
+    margin-top: -75px;
+    width: 450px;
+    height: auto;
+}
+
+.foto2 {
+    position: absolute; /* Menjadikan posisi absolut */
+    top: 675px; /* Menentukan jarak dari atas */
+    left: 535px;
+    margin-top: -200px; /* Menentukan jarak vertikal */
+}
+
+.foto2 img {
+    margin-top: -75px;
+    width: 450px;
+    height: auto;
+}
+
+.text-about{
+    position:relative;
+    color: aliceblue;
+    text-align: justify;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: rgb(62, 59, 59);
+    border-radius: 20px;
+    border: 3px solid white;
+    height: 260px;
+
+}
+
+.text-about h1{
+    padding-bottom: -15px;
+}
+
+.datauser{
+    color: white;
+    font-size: 18px;
+    font-family: "Monomaniac One", sans-serif;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 15px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+
+
